@@ -22,6 +22,8 @@
 		625CB78D18CE179500D82026 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625CB77118CE179500D82026 /* CoreData.framework */; };
 		625CB79518CE179500D82026 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 625CB79318CE179500D82026 /* InfoPlist.strings */; };
 		625CB79718CE179500D82026 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 625CB79618CE179500D82026 /* CoreDataTests.m */; };
+		625CB7A118CE18E500D82026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625CB7A018CE18E500D82026 /* Main.storyboard */; };
+		625CB7A418CE191200D82026 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625CB7A318CE191200D82026 /* CoreDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		625CB79218CE179500D82026 /* CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		625CB79418CE179500D82026 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		625CB79618CE179500D82026 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
+		625CB7A018CE18E500D82026 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		625CB7A218CE191200D82026 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = SOURCE_ROOT; };
+		625CB7A318CE191200D82026 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 			children = (
 				625CB77C18CE179500D82026 /* CoreDataAppDelegate.h */,
 				625CB77D18CE179500D82026 /* CoreDataAppDelegate.m */,
+				625CB7A018CE18E500D82026 /* Main.storyboard */,
+				625CB7A218CE191200D82026 /* CoreDataViewController.h */,
+				625CB7A318CE191200D82026 /* CoreDataViewController.m */,
 				625CB78218CE179500D82026 /* Images.xcassets */,
 				625CB77F18CE179500D82026 /* CoreData.xcdatamodeld */,
 				625CB77418CE179500D82026 /* Supporting Files */,
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625CB7A118CE18E500D82026 /* Main.storyboard in Resources */,
 				625CB77818CE179500D82026 /* InfoPlist.strings in Resources */,
 				625CB78318CE179500D82026 /* Images.xcassets in Resources */,
 			);
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				625CB77A18CE179500D82026 /* main.m in Sources */,
+				625CB7A418CE191200D82026 /* CoreDataViewController.m in Sources */,
 				625CB77E18CE179500D82026 /* CoreDataAppDelegate.m in Sources */,
 				625CB78118CE179500D82026 /* CoreData.xcdatamodeld in Sources */,
 			);
