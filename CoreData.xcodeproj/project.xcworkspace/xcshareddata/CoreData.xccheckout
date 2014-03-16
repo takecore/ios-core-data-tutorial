@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1842DFA0-7B7E-4704-B1E2-076FBC914D02</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CoreData</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>65B5E215-3906-4E60-AE0E-26DAEC9D4D73</key>
+		<string>https://github.com/takecore/ios-core-data-tutorial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CoreData.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>65B5E215-3906-4E60-AE0E-26DAEC9D4D73</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/takecore/ios-core-data-tutorial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>65B5E215-3906-4E60-AE0E-26DAEC9D4D73</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65B5E215-3906-4E60-AE0E-26DAEC9D4D73</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoreData</string>
+		</dict>
+	</array>
+</dict>
+</plist>
